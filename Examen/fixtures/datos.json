@@ -3,7 +3,7 @@
         "model": "Examen.estudio",
         "pk": 1,
         "fields": {
-            "nombre": "Build include sister bag most. Source few information factor tell. Effort human arm education issue sister top.\nLead song mouth old cost same. Television rest trip science financial season."
+            "nombre": "Sony"
         }
     },
     {
@@ -48,8 +48,8 @@
         "model": "Examen.plataforma",
         "pk": 1,
         "fields": {
-            "nombre": "Relationship deep perform tonight rate. Perform usually health forward your gun.\nHuman sit industry speak. Focus ago upon realize.",
-            "fabricante": "Father both especially staff.\nNeed budget response off story. Else without exactly reflect report. Other low us heart against police."
+            "nombre": "Play Station",
+            "fabricante": "Sony"
         }
     },
     {
@@ -81,7 +81,7 @@
         "model": "Examen.videojuego",
         "pk": 2,
         "fields": {
-            "titulo": "Have recently audience design rule either.\nSkin tell everyone. Let American police medical culture area.\nHe spend candidate dog. Scene drop fly plant anyone.",
+            "titulo": "Dark Souls",
             "ventas_estimadas": -24734,
             "estudio_desarrollo": 1
         }
@@ -163,28 +163,28 @@
         "model": "Examen.critico",
         "pk": 1,
         "fields": {
-            "nombre": "Language risk win girl though. Purpose both majority cost risk have news.\nProduction Mr middle window. Require part hard eight."
+            "nombre": "Juan"
         }
     },
     {
         "model": "Examen.critico",
         "pk": 2,
         "fields": {
-            "nombre": "Seek anything soldier weight away change. Program both position Congress industry important. Tv compare many staff.\nHouse phone how."
+            "nombre": "Juan"
         }
     },
     {
         "model": "Examen.critico",
         "pk": 3,
         "fields": {
-            "nombre": "Detail three serious his themselves know character. Coach body task treat then prove style.\nAction product memory even. Anything police plant summer. Herself attack measure research newspaper."
+            "nombre": "Juan"
         }
     },
     {
         "model": "Examen.analisis",
         "pk": 1,
         "fields": {
-            "puntuacion": -14734,
+            "puntuacion": 75,
             "fecha": "2012-11-09",
             "videojuego": 1,
             "critico": 1
@@ -194,7 +194,7 @@
         "model": "Examen.analisis",
         "pk": 2,
         "fields": {
-            "puntuacion": -13479,
+            "puntuacion": 76,
             "fecha": "2006-01-28",
             "videojuego": 1,
             "critico": 2

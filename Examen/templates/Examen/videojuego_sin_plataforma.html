@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Videojuego sin plataforma</title>
+</head>
+<body>
+    <h1>Videojuegos sin plataforma</h1>
+
+        {% for juego in videojuegos %}
+            <li>
+                <h2>{{ juego.titulo }}</h2>
+                <p><strong>Estudio:</strong> {{ juego.estudio_desarrollo.nombre }}</p>
+
+                <p><strong>Sedes:</strong>
+                    {% for sede in juego.estudio_desarrollo.sedes.all %}
+                        {{ sede.pais }}
+                    {% endfor %}
+                </p>
+
+                <p><strong>Plataformas:</strong>
+                    {% for plataforma in juego.plataformas.all %}
+                        {{ plataforma.nombre }}{% if not forloop.last %}, {% endif %}
+                    {% empty %}
+                        Sin plataformas
+                    {% endfor %}
+                </p>
+
+                <p><strong>Análisis:</strong></p>
+                <ul>
+                    {% for analisis in juego.analisis.all %}
+                        <li>{{ analisis.critico.nombre }}: {{ analisis.puntuacion }} ({{ analisis.fecha }})</li>
+                    {% empty %}
+                        <li>No hay análisis disponibles</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+
+</body>
+</html>

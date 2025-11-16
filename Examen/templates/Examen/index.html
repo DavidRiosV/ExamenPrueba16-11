@@ -98,5 +98,13 @@
     
     <h2>Lista de Enlaces</h2>
 
+        <ul>
+        <li><a href="{% url 'videojuego_fantasy' %}">Ejercicio 1</a></li>
+        <li><a href="{% url 'plataforma_sony' %}">Ejercicio 2</a></li>
+        <li><a href="{% url 'videojuego_sin_plataforma' %}">Ejercicio 3</a></li>
+        <li><a href="{% url 'videojuegos_estudio' estudio='Sony' %}">Ejercicio 5</a></li>
+        <li><a href="{% url 'ultimo_analisis' c='Juan' f='Sony' p='Estados Unidos'  %}">Ejercicio 6</a></li>
+        </ul>
+
 </body>
 </html>
